@@ -5,7 +5,7 @@ jsp期末大作业
 -->
 
 <%@ page contentType="text/html;charset=UTF-8" %>
-<!DOCKTYPE HTML>
+<!DOCTYPE HTML>
 <HTML lang="zh-cn">
 <HEAD>
 <title>JSP_Projet</title>
