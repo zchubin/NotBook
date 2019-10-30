@@ -20,6 +20,7 @@ Thie is my study notbook
 3.page指令标记
 >> 作用对整个JSP页面有效，与书写位置无关。习惯性把page指令写在JSP页面前面。
 <%@ page 属性="属性值" %>
+
 |属性|属性值|
 |--|--|
 |contenType|"text/html;charset=ISO-8859-1"/"application/msworld"|
