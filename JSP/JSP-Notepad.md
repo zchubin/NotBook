@@ -40,7 +40,7 @@
 |buffer       |"8K"/"none"                                         |缓冲区大小或不使用缓冲区                                                  |
 |autoFulsh    |"true"/"false"                                      |指定out的缓冲区填满时否自动刷新                                           |
 |isThreadSafe |"true"/"false"                                      |是否可以使用多线程                                                       |
-|info         |"String"                                            |为jsp页面准备一个常用但可能要经常改变的字符串，**getServeletInfo()**;进行调用|
+|info         |"String字符串"                                       |为jsp页面准备一个常用但可能要经常改变的字符串，**getServeletInfo()**;进行调用|
 
 ### include指令标记
 > 在jsp页面内某处整体嵌入一个文件（静态插入一个文件），被嵌入的文件必须是**可以访问或可以使用的**。
