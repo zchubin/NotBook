@@ -111,7 +111,7 @@
 ### request对象
 > HTTP通信协议是用户与服务器之间一种提交（请求）信息和响应信息的（request/response）的通信协议。
 > 在jsp中，内置对象request封装了用户提交的信息，那么该对象调用的相应的方法可以获取封装的信息，即使用该对象可以获取用户提交的信息。
->> 内置对象request对象是实现ServletRequset接口类的一个实例，
+>> 内置request对象是实现ServletRequset接口类的一个实例，
 >> 可以在Tomcat服务器的webapps/tomcat-docs/servletapi中查找ServletRequset接口的方法。
 >> 用户通常使用HTTP服务表单向服务器的某个jsp页面提交信息。
 
@@ -129,7 +129,7 @@
 >> request.getParameter("boy");
 
 1. 常用getParameter(String s)获取用户提交的信息
-2. 如果用户提交汉字字符，会出现乱码。可以使用指点编码的方式解决。
+2. 如果用户提交汉字字符，会出现乱码。可以使用指定编码的方式解决。
 3. 对获取的信息重新编码
 ```java
 //方法一
