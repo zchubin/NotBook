@@ -40,7 +40,7 @@
 |buffer       |"8K"/"none"                                         |缓冲区大小或不使用缓冲区                                                  |
 |autoFulsh    |"true"/"false"                                      |指定out的缓冲区填满时否自动刷新                                           |
 |isThreadSafe |"true"/"false"                                      |是否可以使用多线程                                                       |
-|info         |"String字符串"                                       |为jsp页面准备一个常用但可能要经常改变的字符串，**getServeletInfo()**;进行调用|
+|info         |"String字符串"                                      |为jsp页面准备一个常用但可能要经常改变的字符串，**getServeletInfo()**;进行调用|
 
 ### include指令标记
 > 在jsp页面内某处整体嵌入一个文件（静态插入一个文件），被嵌入的文件必须是**可以访问或可以使用的**。
@@ -107,13 +107,16 @@
 	- session
 	- application
 	- out
+
 ### request对象
 > HTTP通信协议是用户与服务器之间一种提交（请求）信息和响应信息的（request/response）的通信协议。
 > 在jsp中，内置对象request封装了用户提交的信息，那么该对象调用的相应的方法可以获取封装的信息，即使用该对象可以获取用户提交的信息。
 >> 内置对象request对象是实现ServletRequset接口类的一个实例，
 >> 可以在Tomcat服务器的webapps/tomcat-docs/servletapi中查找ServletRequset接口的方法。
 >> 用户通常使用HTTP服务表单向服务器的某个jsp页面提交信息。
+
 - 表单的一般格式：
+
 ```html
 <form action="提交信息的目的地页面" method=get | post >
 	/*提交手段*/
@@ -124,3 +127,19 @@
 >> get方法提交的信息会在提交过程中显示在浏览器的地址栏中，而post方法不会。
 >> request对象可以使用getParameter(String s)方法获取该表单通过text提交的信息：
 >> request.getParameter("boy");
+
+1. 常用getParameter(String s)获取用户提交的信息
+2. 如果用户提交汉字字符，会出现乱码。可以使用指点编码的方式解决。
+3. 对获取的信息重新编码
+```java
+//方法一
+String str=request.getParameter("message");
+byte b[]=str.getBytes("ISO-8859-1");
+str=new String(b);
+//方法二
+s=new String(s.getByte("ISO-8859-1"),"UTF-8");
+//方法三
+request.setCharacterEncoding("UTF-8");
+response.setCharacterEncoding("UTF-8");
+String str=request.getParameter("message");
+```
