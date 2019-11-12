@@ -143,3 +143,27 @@ request.setCharacterEncoding("UTF-8");
 response.setCharacterEncoding("UTF-8");
 String str=request.getParameter("message");
 ```
+- HTML标记
+
+``` html
+1. <form action="提交信息的目的页面" method=get | post name="表单的名字">数据提交手段部分</form>
+2. <input type="输入对象的GUI类型" name="名字" />
+3. <select name="myName">
+		<option value="item1"></option>
+		<option value="item2"></option>
+   </select>
+   <!--
+   selct中增加size属性即可变成滚动列表，size的值是滚动列表的可见行数目。
+   -->
+4. <textArea name="#" rowas="可见行数" clos="可见列数">
+        是一个能输入或显示多行文本的文本区，使用此标记作为子标记可以提交多行文本给服务器
+   </textArea>
+5. <table>
+		<tr> <!-- 行 -->
+			<th></th>
+			<th></th> <!-- 列 -->
+		</tr>
+   </table>
+6. <image src="图像文件url">描述文字</image>
+7. <embed src="音频文件url" loop="-1">描述文字</embed>
+```
