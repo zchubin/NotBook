@@ -149,4 +149,6 @@ main()
 #
 # 完成时间： 2019年12月21日下午3：33，耗时：3H写完+4H检查需修改，查找资料+2H添加自己特色！& ……………^_^
 #
-# 同步GitHub
+# 同步GitHub: https://github.com/zchubin/NotBook.git
+#
+# 创建people.data----[{'name': 'li', 'phone': '11111111111', 'QQ': '111111111', 'Email': 'li.outlook.com'}]
