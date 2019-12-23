@@ -1,0 +1,176 @@
+/*
+autho: zhonghchubin
+Date: 2019.10.16.9:33
+*/
+
+/* 基础设置 */
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.float-clear{
+    clear: both;
+}
+
+.href-a{
+    font-size: 14px;  
+}
+.href-a:hover{
+    color: red;
+}
+
+.bg-color{
+    background-color: red;
+}
+
+.color-a{
+    color: white;
+}
+
+.color-b{
+    color: red;
+}
+
+.red-border{
+    border: 1px solid red;
+}
+
+.min-width{
+    min-width: 1024px;
+    margin: 0 60px;
+}
+
+.table-right{
+    margin-right: 20px;
+}
+
+.table-left{
+    margin-left: 20px;
+}
+
+/*主页固定引用*/
+.header-box-left{
+    width: 60px;
+    height: 100px;
+    overflow: hidden;
+    text-align: center;
+    padding: 40.7px 3px;
+    margin-right: 20px;
+}
+
+.header-mess{
+    margin-top: 40px;
+}
+
+.menu-a{
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    padding: 1px 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.search-box{
+    height: 19.5px;
+}
+
+#static-img{
+    width: 80%;
+    height: 80%;
+    position: center;
+    background-repeat: no-repeat;
+    border-radius: 0 0 8px 8px;
+    margin-bottom: 10px;
+}
+/*尾部固定引用*/
+footer{
+    min-width: 1024px;
+    min-height: 200px;
+    background-color: #1e1e1e;
+    padding: 32px;
+}
+
+.footer-box{
+    margin: 0 100px 5px 80px;
+}
+
+.footer-a{
+    font-size: 18px;
+    color: #77777777;
+    width: 120px;
+    height: 18px;
+    padding: 2px 20px;
+    text-align: left;
+}
+/*侧栏固定引用*/
+.side-table{
+    width: 80px;
+    height: 20px;
+    background: red;
+    text-align: center;
+    padding: 0 4px;
+    position: fixed;
+    right: 0;
+    color: #ffffff;
+    border-radius: 5px 0 0 5px;
+}
+
+.side-table-4{
+    bottom: 97px;
+}
+
+.side-table-3{
+    bottom: 120px;
+}
+
+.side-table-2{
+    bottom: 143px;
+}
+
+.side-table-1{
+    bottom: 166px;
+}
+
+/*注册\登录\查询页面-表格部分*/
+.tr-box{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.name-box{
+    width: 90px;
+    height: 21px;
+    text-align: center;
+}
+
+.tex-box{
+    width: 200px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+.submit-input{
+    width: 890px;
+    border-radius: 5px;
+}
+
+.submit-login{
+    width: 290px;
+    border-radius: 5px;
+}
+
+.form-box{
+    margin: 5px 0;
+    border-radius: 15px;
+}
+
+.up-next{
+    width: 60px;
+    height: 18px;
+}
+
