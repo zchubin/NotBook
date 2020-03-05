@@ -3,6 +3,7 @@
 ## Software
 
 * [FireFox](https://www.mozilla.org/en-US/firefox/all/#product-desktop-release)
+    [Stylus](./Firefox-stylus)
 * [Bandizip](https://www.bandisoft.com/bandizip/)
 * [NeoVim](https://neovim.io/)
 * [Hbuilder](https://www.dcloud.io/)
