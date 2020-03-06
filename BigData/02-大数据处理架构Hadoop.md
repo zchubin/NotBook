@@ -37,8 +37,6 @@
 2.2 Hadoop项目结构
 ---
 
-![Hadoop](./img/Hadoop-2.svg)
-
 | 组件      | 功能                                                                         |
 | ---       | ---                                                                          |
 | HDFS      | 分布式文件系统                                                               |
@@ -57,18 +55,22 @@
 | Spark     | 类似于Hadoop MapReduce的通用并行框架(基于内存计算,比MapReduce性能强)         |
 | pig       | 一个基于Hadoop的大规模数据分析平台，提供类似SQL的查询语句Pig Latin(轻量级)   |
 
+![Hadoop](./img/Hadoop-2.svg)
 ---
 
 2.3 Hadoop的安装与使用
 - [单机模式](http://dblab.xmu.edu.cn/blog/install-hadoop/?appId=1000) :默认模式为非分布式模式(本地模式),无需进行其它配置即可运行。非分布式即单Java进程,方便进行调试。
-- [伪分布式](http://dblab.xmu.edu.cn/blog/2441-2/?appId=1000) :Hadoop可以在单节点上以伪分布式的方法运行,Hadoop进程以分离的Java进程来运,节点即作为NameNode也作为DataNode,同时,读取的是HDFS中的文件。
+
+- [伪分布式](http://dblab.xmu.edu.cn/blog/2441-2/?appId=1000) :Hadoop可以在单节点上以伪分布式的方法运行,Hadoop进程以分离的Java进程来运行,节点即作为NameNode也作为DataNode,同时,读取的是HDFS中的文件。
+
 - [分布式]() :使用多个节点构成集群环境来运行Hadoop。
 
 2.4 Hadoop集群中有哪些重要节点类型
-    1. **NameNode**          : 负责协调集群中的数据存储             ( 名称节点,存放数据地址,热备)
-    2. **DataNode**          : 存储被拆分的数据块                   ( 数据节点,存放具体数据).
-    3. **JobTracker**        : 协调数据计算任务                     ( 总管家)
-    4. **TaskTracker**       : 负责执行JobTracker指派的任务
-    5. **SecondaryNameNode** : 帮助NameNode收集文件系统运行状态信息 ( 冷备,作用于加速启动)
+
+1. **NameNode** : 负责协调集群中的数据存储 ( 名称节点,存放数据地址,热备)
+2. **DataNode** : 存储被拆分的数据块 ( 数据节点,存放具体数据).
+3. **JobTracker** : 协调数据计算任务 ( 总管家)
+4. **TaskTracker** : 负责执行JobTracker指派的任务
+5. **SecondaryNameNode** : 帮助NameNode收集文件系统运行状态信息 ( 冷备,作用于加速启动)
 
 2.5 Hadoop集群的整体性能取决于CPU,内存,网络及存储之间的 **性能平衡**
