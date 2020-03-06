@@ -11,11 +11,12 @@
 > 2008年4月Hadoop用910个节点对1Tb数据进行排序仅用了209秒
 * Hadoop基于Java开发, **跨平台**
 * Hadoop的核心是分布式文件系统 **HDFS** ( Hadoop Distributed File System ) 和 **MapReduce**
-> - MapReduce的作业主要包括
-  - [ ] 从硬盘或网络 **读取数据** , 即**IO密集工作**
-  - [ ]  **计算数据**             , 即**CPU密集工作**
 
+> * MapReduce的作业主要包括
+> - [ ] 从硬盘或网络 **读取数据** , 即**IO密集工作**
+> - [ ]  **计算数据**             , 即**CPU密集工作**
 > * HDFS来源于2003年Google的分布式文件系统GFS(Google File System)
+>
 > * MapReduce来源于2004年Google的分布式并行编程框架MapReduce
 * Google\Yahoo\Cisco\Taobao 都支持 Hadoop
 
