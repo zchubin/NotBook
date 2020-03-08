@@ -4,8 +4,9 @@
 
 ## 第二章-大数据处理架构Hadoop![Hadoop](./img/HadoopLogo)
 
-1.1 Hadoop简介
+### 1.1 Hadoop简介
 * 创始人：Dog Cutting
+    <img src="./img/Dog_Cutting.jpg" alt="Hadoop创始人" style="height: 9em;" />
 
 * Hadoop是Apache软件基金会旗下的一个 **开源分布式计算平台**  为用户提供了系统底层细节透明的 **分布式基础架构**
 > 2008年4月Hadoop用910个节点对1Tb数据进行排序仅用了209秒
@@ -34,7 +35,7 @@
 
 ---
 
-2.2 Hadoop项目结构
+### 2.2 Hadoop项目结构
 ---
 
 | 组件      | 功能                                                                         |
@@ -58,14 +59,14 @@
 ![Hadoop](./img/Hadoop-2.svg)
 ---
 
-2.3 Hadoop的安装与使用
+### 2.3 Hadoop的安装与使用
 - [单机模式](http://dblab.xmu.edu.cn/blog/install-hadoop/?appId=1000) :默认模式为非分布式模式(本地模式),无需进行其它配置即可运行。非分布式即单Java进程,方便进行调试。
 
 - [伪分布式](http://dblab.xmu.edu.cn/blog/2441-2/?appId=1000) :Hadoop可以在单节点上以伪分布式的方法运行,Hadoop进程以分离的Java进程来运行,节点即作为NameNode也作为DataNode,同时,读取的是HDFS中的文件。
 
 - [分布式]() :使用多个节点构成集群环境来运行Hadoop。
 
-2.4 Hadoop集群中有哪些重要节点类型
+### 2.4 Hadoop集群中有哪些重要节点类型
 
 1. **NameNode** : 负责协调集群中的数据存储 ( 名称节点,存放数据地址,热备)
 2. **DataNode** : 存储被拆分的数据块 ( 数据节点,存放具体数据).
@@ -73,4 +74,4 @@
 4. **TaskTracker** : 负责执行JobTracker指派的任务
 5. **SecondaryNameNode** : 帮助NameNode收集文件系统运行状态信息 ( 冷备,作用于加速启动)
 
-2.5 Hadoop集群的整体性能取决于CPU,内存,网络及存储之间的 **性能平衡**
+### 2.5 Hadoop集群的整体性能取决于CPU,内存,网络及存储之间的 **性能平衡**
