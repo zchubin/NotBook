@@ -114,7 +114,7 @@
 > * 这样会出现一问题:
 >> 如果是t2到t1时刻之间出现了问题,FsImage中的数据会丢失,所以说第二名称节点只是起到了“检查点”的作用而绝非“热备份”。
 
-### 3.3数据节点(DataNode)
+### 3.3.3数据节点(DataNode)
 * HDFS**存、取**数据都将保存到linux文件系统
 > * 数据节点负责数据的存储和相关具体操作,比如CRUD、搜索、聚合。
 > * 所以,**数据节点对机器配置要求比较高**,
@@ -122,16 +122,121 @@
 > * 通常随着集群的扩大,需要增加更多的数据节点来提高可用性。**增加更多的数据节点来提高可用性。**
 > * 数据节点负载重，设置专用的数据节点，避免因数据节点负载重导致主节点不响应。
 
-### 3.4HDFS命名规则+空间访问协议
+HDFS命名空间
 **目录+文件+块** == "/+目录名称" == 同Linux
 ---
 
 ![传输方式](./img/HDFS-3.svg)
 ---
 
-### 3.5HDFS的**局限性**:
+**局限性**:
 
 1. 命名空间限制 : 名称节点是保存在内存中的，因此，名称节点能够容纳的对象(文件、块)的个数会搜到空间大小的限制
 2. 性能的瓶颈   : 真个分布式文件的吞吐量,受限于单个名称节点的吞吐量
 3. 隔离问题     : 由于集群中只有一个名称节点，只有一个命名空间，因此无法对不同应用程序进行隔离
 4. 集群的可用性 : 一旦这个唯一的名称节点发生故障，会导致整个集群变得不可用
+
+==HFS2.0== 添加了一个热备
+
+### 3.4HDFS存储原理
+**HDFS存储原理**
+1. 冗余数据保存: 加快数据传输
+2. 数据保存策略: 加快数据传输速度
+3. 数据恢复: 多副本,保证数据可靠
+
+数据读取**就近原则**
+> * HDFS提供了一个API可以确定一个数据节点,所属的机器ID,客户端也可以调用API获取自己所属的机架ID
+> * 当客户机读取数据时,从名称节点获得数据块不同副本的存存放位置列表,列表中包含了副本所在的数据节点,可以调用API来确定客户端和这些数据节点所属的机架ID,当发现该数据块副本对应的机架ID和客户端对应机架ID相同时,就优先选择该副本读取数据,如果没有发现,就随机选择一个副本读取数据
+
+数据的错误与恢复
+* 错误:
+    1. 名称节点出错: SecondaryNameNode
+    2. 数据节点出错: SecondaryNameNode
+    3. 数据本身出错: 校验码 + 数据
+* 恢复:
+    1. 整个HDFS实例失效,HDFS将停止使用一段时间
+    2. 调用SecondaryNameNode的冷备进行恢复
+
+### 3.5.1HDFS读数据过程
+![HDFS-Read](./img/HDFS-Read.svg)
+```java
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import org.apache.hadoop.cnf.Configuration;
+import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.fs.FSDataInputStream;
+
+public class Chapter3{
+    public static void main(String[]args){
+        try{
+            configuration conf = new Configuration();
+            FileSystem fs = FileSystem.get(conf);
+            Path filename = new Path("hdfs://localhost:9000/user/hadoop/test.txt");
+            FSDataInputStream is = fs.open(filename);
+            BufferedReader d = new BufferedReader(new InputStreamReader(is));
+            String content = d.readLine(); //读取文件一行
+            System.out.printIn(content);
+            d.close(); //关闭文件
+            fs.close(); //关闭hdfs
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+    }
+}
+```
+![HDFS-Read-2](./img/HDFS-Read-2.svg)
+### 3.5.2HDFS写数据过程
+![HDFS-Write](./img/HDFS-write.svg)
+
+### 3.6HDFS编程实践
+* HDFS基本编程方法:
+
+1. **shell**
+```shell
+cd /usr/local/hadoop
+./bin/hdfs namenode -format # 格式化Hadoop的hdfs文件系统
+./sbin/start-dfs.sh         # 启动Hadoop
+
+hadoop fs                   # 适用于不同的本地文件系统,适用于HDFS
+hadoop dfs                  # 只适用于HDFS文件系统
+hdfs dfs                    # 只适用于HDFS文件系统
+
+hadoop fs -cp               # 将本地文件复制到分布式文件系统HDFS
+```
+2. **Java API**
+> * Hadoop开发: Hadoop为HDFS和MapReduce提供了基础的支持,叫`hadoop common`
+> * Hadoop有一个专门的`common jar`包,只要把`common`的`jar`包导入进来
+> * 安装路径:`/usr/local/hadoop/share/hadoop`
+
+> **检测伪分布式系统HDFS上到底存不存在一个`input.txt`文件?**
+
+**第一步:把配置文件放到当前Java工程目录下**
+- 需要把集群上的`coc-site.xml`和`hdfs-site.xml`(这两个文件保存在`/hadoop/etc/hadoop`目录下)放到当前工程项目`/bin`文件下
+**第二步:编写代码**
+```java
+import org.apache.hadoop.cnf.Configuration;
+import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.fs.Path;
+
+public class Chapter3{
+    public static void main(String[]args){
+        try{
+            String filename = "https://localhost:9000/user/hadoop/test.txt";
+
+            Configuration cof = new Configuration();
+
+            FileSystem fs = FileSystem.get(conf);
+            if(fs.exists(new Path(filename))){
+                System.out.printIn("文件存在");
+            }else{
+                System.out.printIn("文件不存在");
+            }
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+    }
+}
+```
+3. Brower: 访问`http://localhost:50070`
+---
