@@ -1,6 +1,6 @@
 <CENTER style="font-size: 24px;font-weight: 700;">大数据与云计算</CENTER>
 
-[目录](./README.md)
+[目录](./00-目录.md)
 
 ## 分布式文件系统HDFS
 ### 3.1分布式文件系统简介
@@ -205,6 +205,7 @@ hdfs dfs                    # 只适用于HDFS文件系统
 hadoop fs -cp               # 将本地文件复制到分布式文件系统HDFS
 ```
 2. **Java API**
+
 > * Hadoop开发: Hadoop为HDFS和MapReduce提供了基础的支持,叫`hadoop common`
 > * Hadoop有一个专门的`common jar`包,只要把`common`的`jar`包导入进来
 > * 安装路径:`/usr/local/hadoop/share/hadoop`
@@ -212,8 +213,11 @@ hadoop fs -cp               # 将本地文件复制到分布式文件系统HDFS
 > **检测伪分布式系统HDFS上到底存不存在一个`input.txt`文件?**
 
 **第一步:把配置文件放到当前Java工程目录下**
+
 - 需要把集群上的`coc-site.xml`和`hdfs-site.xml`(这两个文件保存在`/hadoop/etc/hadoop`目录下)放到当前工程项目`/bin`文件下
+
 **第二步:编写代码**
+
 ```java
 import org.apache.hadoop.cnf.Configuration;
 import org.apache.hadoop.fs.FileSystem;

@@ -1,12 +1,12 @@
 <CENTER style="font-size: 24px;font-weight: 700;">大数据与云计算</CENTER>
 
-[目录](./README.md)
+[目录](./00-目录.md)
 
 ## 第二章-大数据处理架构Hadoop![Hadoop](./img/HadoopLogo)
 
 ### 1.1 Hadoop简介
 * 创始人：Dog Cutting
-    <img src="./img/Dog_Cutting.jpg" alt="Hadoop创始人" style="height: 9em;" />
+    <img src="./img/Dog_Cutting.png" alt="Hadoop创始人" style="height: 9em;" />
 
 * Hadoop是Apache软件基金会旗下的一个 **开源分布式计算平台**  为用户提供了系统底层细节透明的 **分布式基础架构**
 > 2008年4月Hadoop用910个节点对1Tb数据进行排序仅用了209秒
@@ -38,23 +38,23 @@
 ### 2.2 Hadoop项目结构
 ---
 
-| 组件      | 功能                                                                         |
-| ---       | ---                                                                          |
-| HDFS      | 分布式文件系统                                                               |
-| MapReduce | 分布式并行编程模型(基于磁盘计算)                                             |
-| YARN      | 资源管理和调度器                                                             |
-| Tez       | 运行在YARN上的下一代Hadoop查询处理系(构建有向无关图，方便工作流程)           |
-| Hive      | Hadoop上数据仓库(把SQL转换成MaReduce作业）                                   |
-| HBase     | Hadoop上的非关系型的分布式数据库                                             |
-| Sqoop     | 用于在Hadoop与传递数据库之间进行数据传递                                     |
-| Oozie     | Hadoop上工作流管理系统                                                       |
-| Zookeeper | 提供分布式协调一致性服务                                                     |
-| Storm     | 流计算框架                                                                   |
-| Flume     | 一个高可用的,高可靠的,分布式海量日志采集,聚合和传输的系统                    |
-| Ambari    | Hadoop快捷部署工具,支持Apache Hadoop集群的供应,管理和监控                    |
-| Kafka     | 一种高吞吐量的分布式发布订阅消息系统可以处理消费者规模网站中的所有动作流数据 |
-| Spark     | 类似于Hadoop MapReduce的通用并行框架(基于内存计算,比MapReduce性能强)         |
-| pig       | 一个基于Hadoop的大规模数据分析平台，提供类似SQL的查询语句Pig Latin(轻量级)   |
+| 组件      | 功能                                                                          |
+| ---       | ---                                                                           |
+| HDFS      | 分布式文件系统                                                                |
+| MapReduce | 分布式并行编程模型(基于磁盘计算,离线计算)                                     |
+| Spark     | 类似于Hadoop MapReduce的通用并行框架(基于内存计算,比MapReduce性能强,实时计算) |
+| YARN      | 资源管理和调度器                                                              |
+| Tez       | 运行在YARN上的下一代Hadoop查询处理系(构建有向无关图，方便工作流程)            |
+| Hive      | Hadoop上数据仓库(把SQL转换成MaReduce作业）                                    |
+| HBase     | Hadoop上的非关系型的分布式数据库                                              |
+| Sqoop     | 用于在Hadoop与传递数据库之间进行数据传递                                      |
+| Oozie     | Hadoop上工作流管理系统                                                        |
+| Zookeeper | 提供分布式协调一致性服务                                                      |
+| Storm     | 流计算框架                                                                    |
+| Flume     | 一个高可用的,高可靠的,分布式海量日志采集,聚合和传输的系统                     |
+| Ambari    | Hadoop快捷部署工具,支持Apache Hadoop集群的供应,管理和监控                     |
+| Kafka     | 一种高吞吐量的分布式发布订阅消息系统可以处理消费者规模网站中的所有动作流数据  |
+| pig       | 一个基于Hadoop的大规模数据分析平台，提供类似SQL的查询语句Pig Latin(轻量级)    |
 
 ![Hadoop](./img/Hadoop-2.svg)
 ---

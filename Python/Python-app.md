@@ -70,10 +70,12 @@ def suml():
         * 避开关键字
 
         ```shell
+
         help()   # 进入帮助系统
         Keywords # 查看所有关键字
         return   # 查看return这个关键字说明
         quit     # 退出帮组系统
+
         ```
 
         * 见名知意
@@ -399,4 +401,128 @@ for i in range(0,10):
                 print(i)
                 break
     ```
+## 第四章
 
+1. 字符串介绍
+
+字符串是一种表示**文本**数据的类型
+- 内部出现单引号/双引号,需要转义字符`\`
+
+| 转义字符     | 代表含义   |
+| ---          | ---        |
+| \ (在尾行时) | 反斜杠符号 |
+| `\\`         | 反斜杠符号 |
+| `\"`         | 双引号     |
+| \n           | 换行       |
+| \b           | 退格       |
+| \t           | 横向制表符 |
+
+2. 字符串输出
+
+常见的格式化符号
+
+| 格式化符号 | 转换                        |
+| ---        | ---                         |
+| `%s`       | 通过str()字符串转换来格式化 |
+| `%d`       | 有符号是十进制整数          |
+| `%f`       | 浮点实数                    |
+
+```py
+name = "小明"
+age = 19
+school = "gzcc"
+
+print("大家好，我叫小明，年龄为19，学校是gzcc")
+print("大家好，我叫"+name+"，年龄为"+str(age)+"，学校是"+school)
+print("大家好，我叫%s，年龄为%d，学校是%s"%(name,age,school))
+print("大家好，我叫{}，年龄为{}，学校是{}".format(name,age,school))
+```
+
+3. **切片**[起始:结束:步长]
+
+```py
+str1 = "hello world"
+print(str1[0])
+print(str1[1])
+print(str1[2])
+print(str1[3])
+print(str1[4])
+
+print(str1[-1])
+print(str1[-2])
+
+print(str1[0:5:1])
+print(str1[5:0:-1])
+```
+
+字符串中的每个字符都对应一个下标，下标编号从`0`开始，从右往左取从`-1`开始
+
+切片选区的区间属于左闭右开型，即从"起始"位置开始，到"结束"位的前一位结束(不包括结束位本身)
+
+4. 内置函数
+
+> * str -- 指定检索的字符串
+> * beg -- 开始索引，默认为0
+> * end -- 结束索引，默认为字符串长度
+
+- str.find(str,beg=0,end=len(string))
+> 找到返回下标值，没找到返回-1
+
+- str.index(str,beg=0,end=len(string))
+> 找到返回下标值，没找到返回错误信息
+
+- str.count(str,beg=0,end=len(string))
+> 统计返回个数，没找到返回错误信息
+
+- str.startwith(str,beg=0,end=len(string))
+> 检查字符串是否以定制字符串开头，返回真假值
+
+- str.endwith(str,beg=0,end=len(string))
+> 检查字符串是否以定制字符串结尾，返回真假值
+
+- str.replace(old,new[,max])
+> * old -- 将被替换的字符串
+> * new -- 新字符串，用于替换 old 字符串
+> * max -- 可选字符串，替换不超过 max 次
+
+- str.split(str="",num=string.count(str))
+> * str -- 分隔符，默认为所有空字符
+> * num -- 分割次
+
+> 根据分隔符，对字符串进行切片，得到列表
+
+- str.capitalize()
+    * 第一个字符大写，其他字母小写
+- str.title()
+    * 所有单词首字母大写，其他字母小写
+
+- str.upper()
+    * 将小写字母转换为大写字母
+- str.lower()
+    * 将大写字母转换为小写字母
+
+- str.ljsut(width[,fillchar])
+    * 左对齐，使用空格填充至指定长度的新字符串
+- str.rjsut(width[,fillchar])
+    * 右对齐，使用空格填充至指定长度的新字符串
+- str.center(width[,fillchar])
+    * 居中对齐，使用空格填充至指定长度的新字符串
+> width -- 指定字符串长度
+> fillchar -- 填充字符，默认为空格
+
+- str.lstrip([chars])
+- str.rstrip([chars])
+- str.strip([chars])
+> chars -- 指定删除字符
+
+5. 字符串运算符
+
+| 操作符 | 描述                                               |
+| ---    | ---                                                |
+| +      | 字符串拼接                                         |
+| *      | 重复输出                                           |
+| []     | 通过索引获取字符串中的字符                         |
+| [:]    | 截取字符串的一部分                                 |
+| in     | 成员运算符号，包含，返回真                         |
+| not in | 成员运算符，不包含，返回真                         |
+| r/R    | 原始字符，还原字符串，没有转义特殊或不能打印的字符 |
