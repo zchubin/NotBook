@@ -526,3 +526,58 @@ print(str1[5:0:-1])
 | in     | 成员运算符号，包含，返回真                         |
 | not in | 成员运算符，不包含，返回真                         |
 | r/R    | 原始字符，还原字符串，没有转义特殊或不能打印的字符 |
+
+## 第5章
+
+1. 列表--是Python中的一种数据结构，它可以存储不同类型的数据，可嵌套
+
+```py
+A = ['XiaoMing','XiaoZhang','XiaoHua']
+print(A[0])
+print(type(A[-1]))
+print(A[1:2]) #切片
+```
+
+* 增
+    1. .appent(内容) 追加一个元素
+    2. .insert(位置,内容) 插入
+    3. .extend(其它list) 合并所有元素
+* 删
+    1. .pop(n) 默认删除最后一个，可指定
+    2. .remove(N) 根据类容删除
+    3. del list(n)
+* 查
+    1. in
+    2. not in
+* 改
+    1. `list[n]='XX'`
+
+* 排序
+    1. .sort 从小到大排列
+    2. .revers 逆置列表
+        `list.sort(revers=ture)` 从大到小
+
+2. 元组:同列表，但不能修改
+
+```py
+tuple1=(1,2,3,4,5,6,7,8,9,0)
+tuple2=('xiaoming',1997,'a',2000)
+tuple3=(1,) #一个数据的元组后加`,`
+```
+
+* len()计算元组的个数
+* max(),min()返回元组最大/小值
+* tuple()将列表转换为元组
+
+3. 字典：是一种存储数据的容器，它和列表一样，都可以存储多个数据
+
+```py
+info={'name':'赵','sex':'男','bron':'广州'}
+# 键key值values对items
+info['name']='李'
+print('name' in info.key())
+print('赵' in info.values())
+
+```
+
+<++>
