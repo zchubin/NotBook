@@ -69,8 +69,22 @@ pip3 install neovim
 1. Path
     * PUBY_HOME : `?:\?\Ruby26-x64`
     * Path : `%RUBY_HOME%\bin`
-2. For nvim
-    * `cmd /c gem list -ra ^^neovim$  `
+
+2. Setting
+    ```shell
+    // 查看现有的源
+    gem sources -l
+    // 删除现有的源
+    gem sources --remove https://rubygems.org/
+    // 添加新的源
+    gem sources -a http://gems.ruby-china.com/
+    gem sources --add https://ruby.taobao.org/
+    ```
+
+3. For nvim
+    * `cmd /c gem list -ra ^^neovim$`
+
+4.[ 更多插件 ](https://rubygems.org/)
 
 * [Node.js](http://nodejs.cn/)
 
@@ -81,11 +95,21 @@ pip3 install neovim
     //全局包目录，就在node安装目录新建了个nodejs文件夹存放
     npm config set cache D:/Development/nodejs/node_cache/
     //全局包缓存目录，就在node安装目录新建了个nodejs文件夹存放
+    npm config set registry https://registry.npm.taobao.org
+    // 指定国内源
+    npm config get registry
+    // 检查当前源
+    npm install -g yarn
+    yarn config set registry https://registry.npm.taobao.org
     ```
 
 3. Path
+    * NODE_PATH : `?:\?\nodejs\node_global\node_modules`
     * `?:\?\nodejs`
     * `?:\?\nodejs\node_global`
+
+4. For Nvim
+    * `npm install -g neovim`
 
 * [Git](https://gitforwindows.org/)
 

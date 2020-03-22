@@ -1,0 +1,523 @@
+2020-03-22 14:03:29.216985 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:30.223959 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:31.230331 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:32.224314 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:33.192511 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getVersion
+2020-03-22 14:03:33.239376 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:34.246774 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:35.261344 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:35.339113 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalOption
+2020-03-22 14:03:36.269492 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:37.278523 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:38.095245 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalOption
+2020-03-22 14:03:38.282716 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:39.291312 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:40.292961 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:41.292023 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:42.316711 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:43.323006 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:44.324604 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:45.317380 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:46.339700 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:47.347412 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:48.349062 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:49.357587 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:50.365857 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:51.372484 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:52.373234 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:53.381173 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:54.074231 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalOption
+2020-03-22 14:03:54.388149 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:55.403496 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:56.409285 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:57.402556 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:58.423170 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:03:59.424675 [INFO] [SaveSessionCommand.cc:74] No change since last serialization or startup. No serialization is necessary this time.
+2020-03-22 14:03:59.424675 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:04:00.432569 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:04:01.446181 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:04:02.454323 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:04:03.455717 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:04:04.463477 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:04:05.473733 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:04:06.480820 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:04:07.482183 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:04:08.489574 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:04:09.496157 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:04:10.532647 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStopped
+2020-03-22 14:04:10.563909 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:04:11.541469 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStopped
+2020-03-22 14:04:11.572725 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:04:12.541103 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStopped
+2020-03-22 14:04:12.587967 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:04:13.562976 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStopped
+2020-03-22 14:04:13.594048 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:04:14.463290 [DEBUG] [WebSocketSessionMan.cc:64] WebSocket session removed.
+2020-03-22 14:04:59.784153 [INFO] [SaveSessionCommand.cc:74] No change since last serialization or startup. No serialization is necessary this time.
+2020-03-22 14:06:00.133649 [INFO] [SaveSessionCommand.cc:74] No change since last serialization or startup. No serialization is necessary this time.
+2020-03-22 14:07:00.544239 [INFO] [SaveSessionCommand.cc:74] No change since last serialization or startup. No serialization is necessary this time.
+2020-03-22 14:08:01.215701 [INFO] [SaveSessionCommand.cc:74] No change since last serialization or startup. No serialization is necessary this time.
+2020-03-22 14:09:06.416406 [INFO] [SaveSessionCommand.cc:74] No change since last serialization or startup. No serialization is necessary this time.
+2020-03-22 14:10:06.955102 [INFO] [SaveSessionCommand.cc:74] No change since last serialization or startup. No serialization is necessary this time.
+2020-03-22 14:11:07.569135 [INFO] [SaveSessionCommand.cc:74] No change since last serialization or startup. No serialization is necessary this time.
+2020-03-22 14:12:08.258920 [INFO] [SaveSessionCommand.cc:74] No change since last serialization or startup. No serialization is necessary this time.
+2020-03-22 14:13:08.976020 [INFO] [SaveSessionCommand.cc:74] No change since last serialization or startup. No serialization is necessary this time.
+2020-03-22 14:14:09.630809 [INFO] [SaveSessionCommand.cc:74] No change since last serialization or startup. No serialization is necessary this time.
+2020-03-22 14:15:10.077800 [INFO] [SaveSessionCommand.cc:74] No change since last serialization or startup. No serialization is necessary this time.
+2020-03-22 14:16:10.689000 [INFO] [SaveSessionCommand.cc:74] No change since last serialization or startup. No serialization is necessary this time.
+2020-03-22 14:16:36.209471 [INFO] [HttpListenCommand.cc:78] RPC: Accepted the connection from 127.0.0.1:50260.
+2020-03-22 14:16:36.209471 [INFO] [HttpServer.cc:187] HTTP Server received request
+GET /jsonrpc HTTP/1.1
+Host: 127.0.0.1:6800
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Sec-WebSocket-Version: 13
+Origin: moz-extension://53ce4d72-4a56-43e9-a56c-e8d3f97e06cc
+Sec-WebSocket-Extensions: permessage-deflate
+Sec-WebSocket-Key: SAm2fRsnQlW+9bRgxKfWnQ==
+DNT: 1
+Connection: keep-alive, Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade: websocket
+
+
+2020-03-22 14:16:36.209471 [DEBUG] [HttpServer.cc:310] HTTP Server sends upgrade response:
+HTTP/1.1 101 Switching Protocols
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Accept: Z+vQ9a+O2oyCnuog5KPl6sp9GKI=
+
+
+2020-03-22 14:16:36.209471 [INFO] [AbstractHttpServerResponseCommand.cc:118] CUID#14 - HttpServer: all response transmitted.
+2020-03-22 14:16:36.209471 [DEBUG] [WebSocketSessionMan.cc:57] WebSocket session added.
+2020-03-22 14:16:36.209471 [INFO] [HttpListenCommand.cc:78] RPC: Accepted the connection from 127.0.0.1:50261.
+2020-03-22 14:16:36.209471 [INFO] [HttpServer.cc:187] HTTP Server received request
+GET /jsonrpc HTTP/1.1
+Host: 127.0.0.1:6800
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Sec-WebSocket-Version: 13
+Origin: moz-extension://53ce4d72-4a56-43e9-a56c-e8d3f97e06cc
+Sec-WebSocket-Extensions: permessage-deflate
+Sec-WebSocket-Key: uw8HwACSyYeSyQxLXF9uxw==
+DNT: 1
+Connection: keep-alive, Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade: websocket
+
+
+2020-03-22 14:16:36.209471 [DEBUG] [HttpServer.cc:310] HTTP Server sends upgrade response:
+HTTP/1.1 101 Switching Protocols
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Accept: L2/qnhZuCYZ7N3AlCvDYiY/JwcE=
+
+
+2020-03-22 14:16:36.209471 [INFO] [AbstractHttpServerResponseCommand.cc:118] CUID#15 - HttpServer: all response transmitted.
+2020-03-22 14:16:36.209471 [DEBUG] [WebSocketSessionMan.cc:57] WebSocket session added.
+2020-03-22 14:16:36.209471 [INFO] [HttpListenCommand.cc:78] RPC: Accepted the connection from 127.0.0.1:50262.
+2020-03-22 14:16:36.209471 [INFO] [HttpServer.cc:187] HTTP Server received request
+POST /jsonrpc HTTP/1.1
+Host: 127.0.0.1:6800
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0
+Accept: application/json
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Content-Type: application/json
+Origin: moz-extension://53ce4d72-4a56-43e9-a56c-e8d3f97e06cc
+Content-Length: 445
+DNT: 1
+Connection: keep-alive
+
+
+2020-03-22 14:16:36.209471 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.addUri
+2020-03-22 14:16:36.209471 [DEBUG] [HttpServer.cc:296] HTTP Server sends response:
+HTTP/1.1 200 OK
+Date: Sun, 22 Mar 2020 06:16:36 GMT
+Content-Length: 70
+Expires: Sun, 22 Mar 2020 06:16:36 GMT
+Cache-Control: no-cache
+Content-Type: application/json-rpc
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+
+
+2020-03-22 14:16:36.209471 [DEBUG] [RequestGroupMan.cc:591] 1 RequestGroup(s) added.
+2020-03-22 14:16:36.209471 [INFO] [AbstractHttpServerResponseCommand.cc:118] CUID#16 - HttpServer: all response transmitted.
+2020-03-22 14:16:36.209471 [INFO] [HttpServerResponseCommand.cc:60] CUID#16 - Persist connection.
+2020-03-22 14:16:36.209471 [DEBUG] [AbstractCommand.cc:184] CUID#17 - socket: read:0, write:0, hup:0, err:0
+2020-03-22 14:16:36.209471 [DEBUG] [FeedbackURISelector.cc:162] Selected from normCands
+2020-03-22 14:16:36.209471 [DEBUG] [FeedbackURISelector.cc:84] FeedbackURISelector selected https://www.wallpaperup.com/wallpaper/do_download/124212/dd9e9831b523d714ff31f8c3e8790037
+2020-03-22 14:16:36.209471 [DEBUG] [AbstractCommand.cc:184] CUID#17 - socket: read:0, write:0, hup:0, err:0
+2020-03-22 14:16:36.225087 [INFO] [AsyncNameResolverMan.cc:83] CUID#17 - Resolving hostname www.wallpaperup.com
+2020-03-22 14:16:36.240706 [DEBUG] [AbstractCommand.cc:184] CUID#17 - socket: read:0, write:0, hup:0, err:0
+2020-03-22 14:16:36.240706 [INFO] [AbstractCommand.cc:817] CUID#17 - Name resolution complete: www.wallpaperup.com -> 142.44.139.57
+2020-03-22 14:16:36.240706 [INFO] [HttpInitiateConnectionCommand.cc:123] CUID#17 - Connecting to 142.44.139.57:443
+2020-03-22 14:16:36.240706 [DEBUG] [AbstractCommand.cc:184] CUID#17 - socket: read:0, write:0, hup:0, err:0
+2020-03-22 14:16:36.240706 [INFO] [HttpListenCommand.cc:78] RPC: Accepted the connection from 127.0.0.1:50264.
+2020-03-22 14:16:36.240706 [INFO] [HttpServer.cc:187] HTTP Server received request
+GET /jsonrpc HTTP/1.1
+Host: 127.0.0.1:6800
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Sec-WebSocket-Version: 13
+Origin: moz-extension://53ce4d72-4a56-43e9-a56c-e8d3f97e06cc
+Sec-WebSocket-Extensions: permessage-deflate
+Sec-WebSocket-Key: 33IlUL25+LGfb/4U6WhmGQ==
+DNT: 1
+Connection: keep-alive, Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade: websocket
+
+
+2020-03-22 14:16:36.240706 [DEBUG] [HttpServer.cc:310] HTTP Server sends upgrade response:
+HTTP/1.1 101 Switching Protocols
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Accept: jnmVgPTiby0D8boPV6hJ2q6PAbw=
+
+
+2020-03-22 14:16:36.240706 [INFO] [AbstractHttpServerResponseCommand.cc:118] CUID#18 - HttpServer: all response transmitted.
+2020-03-22 14:16:36.240706 [DEBUG] [WebSocketSessionMan.cc:57] WebSocket session added.
+2020-03-22 14:16:36.256328 [INFO] [HttpServer.cc:187] HTTP Server received request
+POST /jsonrpc HTTP/1.1
+Host: 127.0.0.1:6800
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0
+Accept: application/json
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Content-Type: application/json
+Origin: moz-extension://53ce4d72-4a56-43e9-a56c-e8d3f97e06cc
+Content-Length: 55
+DNT: 1
+Connection: keep-alive
+
+
+2020-03-22 14:16:36.256328 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellActive
+2020-03-22 14:16:36.256328 [DEBUG] [HttpServer.cc:296] HTTP Server sends response:
+HTTP/1.1 200 OK
+Date: Sun, 22 Mar 2020 06:16:36 GMT
+Content-Length: 80
+Expires: Sun, 22 Mar 2020 06:16:36 GMT
+Cache-Control: no-cache
+Content-Type: application/json-rpc
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+
+
+2020-03-22 14:16:36.256328 [INFO] [AbstractHttpServerResponseCommand.cc:118] CUID#16 - HttpServer: all response transmitted.
+2020-03-22 14:16:36.256328 [INFO] [HttpServerResponseCommand.cc:60] CUID#16 - Persist connection.
+2020-03-22 14:16:36.568794 [DEBUG] [AbstractCommand.cc:184] CUID#17 - socket: read:0, write:1, hup:0, err:0
+2020-03-22 14:16:36.568794 [DEBUG] [AbstractCommand.cc:184] CUID#17 - socket: read:0, write:1, hup:0, err:0
+2020-03-22 14:16:36.568794 [DEBUG] [SocketCore.cc:926] Creating TLS session
+2020-03-22 14:16:36.568794 [DEBUG] [SocketCore.cc:946] TLS Handshaking
+2020-03-22 14:16:36.568794 [DEBUG] [WinTLSSession.cc:585] WinTLS: Starting/Resuming TLS Connect
+2020-03-22 14:16:36.568794 [DEBUG] [WinTLSSession.cc:604] WinTLS: Initializing handshake
+2020-03-22 14:16:36.568794 [DEBUG] [WinTLSSession.cc:630] WinTLS: Writing handshake
+2020-03-22 14:16:36.568794 [DEBUG] [WinTLSSession.cc:662] WinTLS: Reading handshake...
+2020-03-22 14:16:36.914321 [DEBUG] [AbstractCommand.cc:184] CUID#17 - socket: read:1, write:0, hup:0, err:0
+2020-03-22 14:16:36.914321 [DEBUG] [WinTLSSession.cc:585] WinTLS: Starting/Resuming TLS Connect
+2020-03-22 14:16:36.914321 [DEBUG] [WinTLSSession.cc:662] WinTLS: Reading handshake...
+2020-03-22 14:16:36.936532 [DEBUG] [WinTLSSession.cc:758] WinTLS: Continuing with handshake
+2020-03-22 14:16:36.936532 [DEBUG] [WinTLSSession.cc:662] WinTLS: Reading handshake...
+2020-03-22 14:16:37.203504 [DEBUG] [WinTLSSession.cc:758] WinTLS: Continuing with handshake
+2020-03-22 14:16:37.203504 [DEBUG] [WinTLSSession.cc:630] WinTLS: Writing handshake
+2020-03-22 14:16:37.203504 [DEBUG] [WinTLSSession.cc:662] WinTLS: Reading handshake...
+2020-03-22 14:16:37.531777 [DEBUG] [AbstractCommand.cc:184] CUID#17 - socket: read:1, write:0, hup:0, err:0
+2020-03-22 14:16:37.531777 [DEBUG] [WinTLSSession.cc:585] WinTLS: Starting/Resuming TLS Connect
+2020-03-22 14:16:37.531777 [DEBUG] [WinTLSSession.cc:662] WinTLS: Reading handshake...
+2020-03-22 14:16:37.531777 [INFO] [WinTLSSession.cc:789] WinTLS: connected with: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+2020-03-22 14:16:37.531777 [DEBUG] [SocketCore.cc:986] Securely connected to www.wallpaperup.com (142.44.139.57:443)
+2020-03-22 14:16:37.531777 [INFO] [HttpConnection.cc:123] CUID#17 - Requesting:
+GET /wallpaper/do_download/124212/dd9e9831b523d714ff31f8c3e8790037 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0
+Accept: */*,application/metalink4+xml,application/metalink+xml
+Host: www.wallpaperup.com
+Want-Digest: SHA-512;q=1, SHA-256;q=1, SHA;q=0.1
+Referer: https://www.wallpaperup.com/124212/original_clouds_flowers_landscape_original_scenic_sky_summer_water.html
+Cookie: _cmpQcif3pcsupported=1
+
+
+2020-03-22 14:16:37.531777 [DEBUG] [WinTLSSession.cc:337] WinTLS: Write request: 461 buffered: 0
+2020-03-22 14:16:37.531777 [DEBUG] [WinTLSSession.cc:280] WinTLS: TLS record 0 bytes left
+2020-03-22 14:16:37.531777 [DEBUG] [WinTLSSession.cc:408] WinTLS: Write TLS record header: 13 body: 461 trailer: 16
+2020-03-22 14:16:37.531777 [DEBUG] [WinTLSSession.cc:280] WinTLS: TLS record 490 bytes left
+2020-03-22 14:16:37.531777 [DEBUG] [WinTLSSession.cc:428] WinTLS: Write result: 461
+2020-03-22 14:16:37.880199 [DEBUG] [AbstractCommand.cc:184] CUID#17 - socket: read:1, write:0, hup:0, err:0
+2020-03-22 14:16:37.896949 [DEBUG] [WinTLSSession.cc:436] WinTLS: Read request: 16384 buffered: 0
+2020-03-22 14:16:37.896949 [INFO] [HttpConnection.cc:158] CUID#17 - Response received:
+HTTP/1.1 400 Bad Request
+Server: nginx
+Date: Sun, 22 Mar 2020 06:16:36 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Cache: MISS
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+2020-03-22 14:16:37.896949 [DEBUG] [AbstractCommand.cc:184] CUID#17 - socket: read:0, write:0, hup:0, err:0
+2020-03-22 14:16:37.896949 [INFO] [DownloadEngine.cc:315] Pool socket for 142.44.139.57(443)
+2020-03-22 14:16:37.896949 [ERROR] [AbstractCommand.cc:351] CUID#17 - Download aborted. URI=https://www.wallpaperup.com/wallpaper/do_download/124212/dd9e9831b523d714ff31f8c3e8790037
+Exception: [AbstractCommand.cc:351] errorCode=22 URI=https://www.wallpaperup.com/wallpaper/do_download/124212/dd9e9831b523d714ff31f8c3e8790037
+  -> [HttpSkipResponseCommand.cc:240] errorCode=22 The response status is not successful. status=400
+2020-03-22 14:16:37.896949 [DEBUG] [AbstractCommand.cc:479] CUID#17 - Aborting download
+2020-03-22 14:16:37.896949 [DEBUG] [AbstractCommand.cc:426] CUID#17 - Not trying next request. No reserved/pooled request is remaining and total length is still unknown.
+2020-03-22 14:16:37.896949 [DEBUG] [RequestGroup.cc:982] GID#c957807193d2f113 - Request queue check
+2020-03-22 14:16:37.896949 [NOTICE] [RequestGroupMan.cc:427] Download GID#c957807193d2f113 not complete: D://Download///original_clouds_flowers_landscape_original_scenic_sky_summer_water_2560x1600.jpg
+2020-03-22 14:16:37.896949 [DEBUG] [RequestGroup.cc:1172] GID#c957807193d2f113 - Creating DownloadResult.
+2020-03-22 14:16:37.896949 [DEBUG] [RequestGroupMan.cc:482] 1 RequestGroup(s) deleted.
+2020-03-22 14:16:37.896949 [INFO] [HttpServer.cc:187] HTTP Server received request
+POST /jsonrpc HTTP/1.1
+Host: 127.0.0.1:6800
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0
+Accept: application/json
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Content-Type: application/json
+Origin: moz-extension://53ce4d72-4a56-43e9-a56c-e8d3f97e06cc
+Content-Length: 63
+DNT: 1
+Connection: keep-alive
+
+
+2020-03-22 14:16:37.896949 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getUris
+2020-03-22 14:16:37.896949 [DEBUG] [RpcMethod.cc:101] Exception caught
+Exception: [RpcMethodImpl.cc:965] errorCode=1 No URI data is available for GID#c957807193d2f113
+2020-03-22 14:16:37.896949 [DEBUG] [HttpServer.cc:296] HTTP Server sends response:
+HTTP/1.1 400 Bad Request
+Date: Sun, 22 Mar 2020 06:16:37 GMT
+Content-Length: 120
+Expires: Sun, 22 Mar 2020 06:16:37 GMT
+Cache-Control: no-cache
+Content-Type: application/json-rpc
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+Connection: close
+
+
+2020-03-22 14:16:37.896949 [INFO] [AbstractHttpServerResponseCommand.cc:118] CUID#16 - HttpServer: all response transmitted.
+2020-03-22 14:16:37.912512 [INFO] [HttpListenCommand.cc:78] RPC: Accepted the connection from 127.0.0.1:50266.
+2020-03-22 14:16:37.912512 [INFO] [HttpServer.cc:187] HTTP Server received request
+POST /jsonrpc HTTP/1.1
+Host: 127.0.0.1:6800
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0
+Accept: application/json
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Content-Type: application/json
+Origin: moz-extension://53ce4d72-4a56-43e9-a56c-e8d3f97e06cc
+Content-Length: 55
+DNT: 1
+Connection: keep-alive
+
+
+2020-03-22 14:16:37.912512 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellActive
+2020-03-22 14:16:37.912512 [DEBUG] [HttpServer.cc:296] HTTP Server sends response:
+HTTP/1.1 200 OK
+Date: Sun, 22 Mar 2020 06:16:37 GMT
+Content-Length: 56
+Expires: Sun, 22 Mar 2020 06:16:37 GMT
+Cache-Control: no-cache
+Content-Type: application/json-rpc
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+
+
+2020-03-22 14:16:37.912512 [INFO] [AbstractHttpServerResponseCommand.cc:118] CUID#19 - HttpServer: all response transmitted.
+2020-03-22 14:16:37.912512 [INFO] [HttpServerResponseCommand.cc:60] CUID#19 - Persist connection.
+2020-03-22 14:16:37.912512 [DEBUG] [WebSocketSessionMan.cc:64] WebSocket session removed.
+2020-03-22 14:16:40.932955 [DEBUG] [DownloadEngine.cc:327] Scanning SocketPool and erasing timed out entry.
+2020-03-22 14:16:40.932955 [DEBUG] [DownloadEngine.cc:335] 0 entries removed.
+2020-03-22 14:17:08.136099 [INFO] [HttpServerCommand.cc:262] HTTP request timeout.
+2020-03-22 14:17:11.164882 [DEBUG] [DownloadEngine.cc:327] Scanning SocketPool and erasing timed out entry.
+2020-03-22 14:17:11.164882 [DEBUG] [DownloadEngine.cc:335] 1 entries removed.
+2020-03-22 14:17:11.164882 [DEBUG] [WinTLSSession.cc:181] WinTLS: Closing connection
+2020-03-22 14:17:11.164882 [DEBUG] [WinTLSSession.cc:337] WinTLS: Write request: 31 buffered: 0
+2020-03-22 14:17:11.164882 [DEBUG] [WinTLSSession.cc:280] WinTLS: TLS record 0 bytes left
+2020-03-22 14:17:11.164882 [DEBUG] [WinTLSSession.cc:408] WinTLS: Write TLS record header: 13 body: 31 trailer: 16
+2020-03-22 14:17:11.164882 [DEBUG] [WinTLSSession.cc:280] WinTLS: TLS record 60 bytes left
+2020-03-22 14:17:11.164882 [DEBUG] [WinTLSSession.cc:428] WinTLS: Write result: 31
+2020-03-22 14:17:11.164882 [DEBUG] [WinTLSSession.cc:225] WinTLS: Closed Connection
+2020-03-22 14:17:11.190525 [NOTICE] [SaveSessionCommand.cc:82] Serialized session to 'aria2.session' successfully.
+2020-03-22 14:17:13.071259 [INFO] [HttpListenCommand.cc:78] RPC: Accepted the connection from 127.0.0.1:50271.
+2020-03-22 14:17:13.071259 [INFO] [HttpServer.cc:187] HTTP Server received request
+GET /jsonrpc HTTP/1.1
+Host: 127.0.0.1:6800
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Sec-WebSocket-Version: 13
+Origin: moz-extension://53ce4d72-4a56-43e9-a56c-e8d3f97e06cc
+Sec-WebSocket-Extensions: permessage-deflate
+Sec-WebSocket-Key: 8+jmQv879ArY4S6MDCswAQ==
+DNT: 1
+Connection: keep-alive, Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade: websocket
+
+
+2020-03-22 14:17:13.071259 [DEBUG] [HttpServer.cc:310] HTTP Server sends upgrade response:
+HTTP/1.1 101 Switching Protocols
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Accept: nzOoQYG0VP6T0F5lOBW/nwe+nQo=
+
+
+2020-03-22 14:17:13.071259 [INFO] [AbstractHttpServerResponseCommand.cc:118] CUID#20 - HttpServer: all response transmitted.
+2020-03-22 14:17:13.071259 [DEBUG] [WebSocketSessionMan.cc:57] WebSocket session added.
+2020-03-22 14:17:13.196194 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:13.196194 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalOption
+2020-03-22 14:17:14.079768 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:14.504091 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellActive
+2020-03-22 14:17:15.082083 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:15.520780 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellActive
+2020-03-22 14:17:16.085015 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:16.524239 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellActive
+2020-03-22 14:17:17.094174 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:17.537857 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellActive
+2020-03-22 14:17:17.705201 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellWaiting
+2020-03-22 14:17:18.090979 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:18.625789 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStopped
+2020-03-22 14:17:19.110116 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:19.627400 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStopped
+2020-03-22 14:17:20.111771 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:20.635708 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStopped
+2020-03-22 14:17:21.109246 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:21.648637 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStopped
+2020-03-22 14:17:22.033402 [INFO] [rpc_helper.cc:103] Executing RPC method system.multicall
+2020-03-22 14:17:22.048767 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.addUri
+2020-03-22 14:17:22.048767 [DEBUG] [RequestGroupMan.cc:591] 1 RequestGroup(s) added.
+2020-03-22 14:17:22.048767 [DEBUG] [AbstractCommand.cc:184] CUID#21 - socket: read:0, write:0, hup:0, err:0
+2020-03-22 14:17:22.048767 [DEBUG] [FeedbackURISelector.cc:162] Selected from normCands
+2020-03-22 14:17:22.048767 [DEBUG] [FeedbackURISelector.cc:84] FeedbackURISelector selected https://www.wallpaperup.com/wallpaper/do_download/124212/dd9e9831b523d714ff31f8c3e8790037
+2020-03-22 14:17:22.048767 [DEBUG] [AbstractCommand.cc:184] CUID#21 - socket: read:0, write:0, hup:0, err:0
+2020-03-22 14:17:22.048767 [INFO] [AbstractCommand.cc:772] CUID#21 - DNS cache hit: www.wallpaperup.com -> 142.44.139.57
+2020-03-22 14:17:22.048767 [INFO] [HttpInitiateConnectionCommand.cc:123] CUID#21 - Connecting to 142.44.139.57:443
+2020-03-22 14:17:22.048767 [DEBUG] [AbstractCommand.cc:184] CUID#21 - socket: read:0, write:0, hup:0, err:0
+2020-03-22 14:17:22.048767 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:22.064386 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellActive
+2020-03-22 14:17:22.111253 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:22.377048 [DEBUG] [AbstractCommand.cc:184] CUID#21 - socket: read:0, write:1, hup:0, err:0
+2020-03-22 14:17:22.377048 [DEBUG] [AbstractCommand.cc:184] CUID#21 - socket: read:0, write:1, hup:0, err:0
+2020-03-22 14:17:22.377048 [DEBUG] [SocketCore.cc:926] Creating TLS session
+2020-03-22 14:17:22.377048 [DEBUG] [SocketCore.cc:946] TLS Handshaking
+2020-03-22 14:17:22.377048 [DEBUG] [WinTLSSession.cc:585] WinTLS: Starting/Resuming TLS Connect
+2020-03-22 14:17:22.377048 [DEBUG] [WinTLSSession.cc:604] WinTLS: Initializing handshake
+2020-03-22 14:17:22.377048 [DEBUG] [WinTLSSession.cc:630] WinTLS: Writing handshake
+2020-03-22 14:17:22.377048 [DEBUG] [WinTLSSession.cc:662] WinTLS: Reading handshake...
+2020-03-22 14:17:22.720714 [DEBUG] [AbstractCommand.cc:184] CUID#21 - socket: read:1, write:0, hup:0, err:0
+2020-03-22 14:17:22.720714 [DEBUG] [WinTLSSession.cc:585] WinTLS: Starting/Resuming TLS Connect
+2020-03-22 14:17:22.720714 [DEBUG] [WinTLSSession.cc:662] WinTLS: Reading handshake...
+2020-03-22 14:17:22.720714 [DEBUG] [WinTLSSession.cc:758] WinTLS: Continuing with handshake
+2020-03-22 14:17:22.720714 [DEBUG] [WinTLSSession.cc:630] WinTLS: Writing handshake
+2020-03-22 14:17:22.720714 [DEBUG] [WinTLSSession.cc:662] WinTLS: Reading handshake...
+2020-03-22 14:17:23.070068 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellActive
+2020-03-22 14:17:23.070068 [DEBUG] [AbstractCommand.cc:184] CUID#21 - socket: read:0, write:0, hup:0, err:0
+2020-03-22 14:17:23.134587 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:23.775021 [DEBUG] [AbstractCommand.cc:184] CUID#21 - socket: read:1, write:0, hup:0, err:0
+2020-03-22 14:17:23.775021 [DEBUG] [WinTLSSession.cc:585] WinTLS: Starting/Resuming TLS Connect
+2020-03-22 14:17:23.775021 [DEBUG] [WinTLSSession.cc:662] WinTLS: Reading handshake...
+2020-03-22 14:17:23.775021 [INFO] [WinTLSSession.cc:789] WinTLS: connected with: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+2020-03-22 14:17:23.775021 [DEBUG] [SocketCore.cc:986] Securely connected to www.wallpaperup.com (142.44.139.57:443)
+2020-03-22 14:17:23.775021 [INFO] [HttpConnection.cc:123] CUID#21 - Requesting:
+GET /wallpaper/do_download/124212/dd9e9831b523d714ff31f8c3e8790037 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0
+Accept: */*,application/metalink4+xml,application/metalink+xml
+Host: www.wallpaperup.com
+Want-Digest: SHA-512;q=1, SHA-256;q=1, SHA;q=0.1
+Referer: https://www.wallpaperup.com/124212/original_clouds_flowers_landscape_original_scenic_sky_summer_water.html
+Cookie: _cmpQcif3pcsupported=1
+
+
+2020-03-22 14:17:23.775021 [DEBUG] [WinTLSSession.cc:337] WinTLS: Write request: 461 buffered: 0
+2020-03-22 14:17:23.775021 [DEBUG] [WinTLSSession.cc:280] WinTLS: TLS record 0 bytes left
+2020-03-22 14:17:23.775021 [DEBUG] [WinTLSSession.cc:408] WinTLS: Write TLS record header: 13 body: 461 trailer: 16
+2020-03-22 14:17:23.775021 [DEBUG] [WinTLSSession.cc:280] WinTLS: TLS record 490 bytes left
+2020-03-22 14:17:23.775021 [DEBUG] [WinTLSSession.cc:428] WinTLS: Write result: 461
+2020-03-22 14:17:24.071587 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellActive
+2020-03-22 14:17:24.071587 [DEBUG] [AbstractCommand.cc:184] CUID#21 - socket: read:0, write:0, hup:0, err:0
+2020-03-22 14:17:24.134255 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:24.149958 [DEBUG] [AbstractCommand.cc:184] CUID#21 - socket: read:1, write:0, hup:0, err:0
+2020-03-22 14:17:24.149958 [DEBUG] [WinTLSSession.cc:436] WinTLS: Read request: 16384 buffered: 0
+2020-03-22 14:17:24.149958 [INFO] [HttpConnection.cc:158] CUID#21 - Response received:
+HTTP/1.1 400 Bad Request
+Server: nginx
+Date: Sun, 22 Mar 2020 06:17:23 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Cache: MISS
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+2020-03-22 14:17:24.149958 [DEBUG] [AbstractCommand.cc:184] CUID#21 - socket: read:0, write:0, hup:0, err:0
+2020-03-22 14:17:24.149958 [INFO] [DownloadEngine.cc:315] Pool socket for 142.44.139.57(443)
+2020-03-22 14:17:24.149958 [ERROR] [AbstractCommand.cc:351] CUID#21 - Download aborted. URI=https://www.wallpaperup.com/wallpaper/do_download/124212/dd9e9831b523d714ff31f8c3e8790037
+Exception: [AbstractCommand.cc:351] errorCode=22 URI=https://www.wallpaperup.com/wallpaper/do_download/124212/dd9e9831b523d714ff31f8c3e8790037
+  -> [HttpSkipResponseCommand.cc:240] errorCode=22 The response status is not successful. status=400
+2020-03-22 14:17:24.149958 [DEBUG] [AbstractCommand.cc:479] CUID#21 - Aborting download
+2020-03-22 14:17:24.149958 [DEBUG] [AbstractCommand.cc:426] CUID#21 - Not trying next request. No reserved/pooled request is remaining and total length is still unknown.
+2020-03-22 14:17:24.149958 [DEBUG] [RequestGroup.cc:982] GID#67324eb891c1f07e - Request queue check
+2020-03-22 14:17:24.149958 [NOTICE] [RequestGroupMan.cc:427] Download GID#67324eb891c1f07e not complete: D://Download///original_clouds_flowers_landscape_original_scenic_sky_summer_water_2560x1600.jpg
+2020-03-22 14:17:24.165262 [DEBUG] [RequestGroup.cc:1172] GID#67324eb891c1f07e - Creating DownloadResult.
+2020-03-22 14:17:24.165262 [DEBUG] [RequestGroupMan.cc:482] 1 RequestGroup(s) deleted.
+2020-03-22 14:17:24.165262 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
+2020-03-22 14:17:25.079822 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellActive
+2020-03-22 14:17:25.142304 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:26.083359 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellActive
+2020-03-22 14:17:26.145729 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:27.091465 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellActive
+2020-03-22 14:17:27.153951 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:27.795791 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStopped
+2020-03-22 14:17:28.155114 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:28.803108 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStopped
+2020-03-22 14:17:29.162396 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:29.807802 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStopped
+2020-03-22 14:17:30.169368 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:30.809841 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStopped
+2020-03-22 14:17:31.174829 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:31.817055 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStopped
+2020-03-22 14:17:32.176337 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:32.824449 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStopped
+2020-03-22 14:17:33.183969 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:33.830697 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStopped
+2020-03-22 14:17:34.191561 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:34.844031 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStopped
+2020-03-22 14:17:35.196502 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:35.854063 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStopped
+2020-03-22 14:17:36.202799 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:36.851844 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStopped
+2020-03-22 14:17:37.204003 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:37.250857 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.removeDownloadResult
+2020-03-22 14:17:37.250857 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.removeDownloadResult
+2020-03-22 14:17:37.266253 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:37.281873 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStopped
+2020-03-22 14:17:38.210906 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.getGlobalStat
+2020-03-22 14:17:38.288810 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStopped
+2020-03-22 14:17:38.778527 [DEBUG] [WebSocketSessionMan.cc:64] WebSocket session removed.
+2020-03-22 14:17:41.800168 [DEBUG] [DownloadEngine.cc:327] Scanning SocketPool and erasing timed out entry.
+2020-03-22 14:17:41.800168 [DEBUG] [DownloadEngine.cc:335] 1 entries removed.
+2020-03-22 14:17:41.800168 [DEBUG] [WinTLSSession.cc:181] WinTLS: Closing connection
+2020-03-22 14:17:41.800168 [DEBUG] [WinTLSSession.cc:337] WinTLS: Write request: 31 buffered: 0
+2020-03-22 14:17:41.800168 [DEBUG] [WinTLSSession.cc:280] WinTLS: TLS record 0 bytes left
+2020-03-22 14:17:41.800168 [DEBUG] [WinTLSSession.cc:408] WinTLS: Write TLS record header: 13 body: 31 trailer: 16
+2020-03-22 14:17:41.800168 [DEBUG] [WinTLSSession.cc:280] WinTLS: TLS record 60 bytes left
+2020-03-22 14:17:41.800168 [DEBUG] [WinTLSSession.cc:428] WinTLS: Write result: 31
+2020-03-22 14:17:41.800168 [DEBUG] [WinTLSSession.cc:225] WinTLS: Closed Connection
+2020-03-22 14:18:12.140721 [NOTICE] [SaveSessionCommand.cc:82] Serialized session to 'aria2.session' successfully.
+2020-03-22 14:19:12.546943 [INFO] [SaveSessionCommand.cc:74] No change since last serialization or startup. No serialization is necessary this time.
+2020-03-22 14:20:13.067765 [INFO] [SaveSessionCommand.cc:74] No change since last serialization or startup. No serialization is necessary this time.
+2020-03-22 14:21:13.630207 [INFO] [SaveSessionCommand.cc:74] No change since last serialization or startup. No serialization is necessary this time.
+2020-03-22 14:22:13.791834 [INFO] [SaveSessionCommand.cc:74] No change since last serialization or startup. No serialization is necessary this time.

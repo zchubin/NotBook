@@ -1,4 +1,4 @@
-# Archlinux源
+# Archlinux 源
 ## 默认源文件`/etc/pacman.d/mirrorlist`
 
 ## 官方源文件
@@ -34,7 +34,7 @@ sudo pacman -S yay && yay --save --aururl "https://aur.tuna.tsinghua.edu.cn"
 >
 > #### 上海交通大学
 > Server= https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
-> #### 浙江大学 (浙江杭州) (ipv4, ipv6, http, https)
+> #### 浙江大学 （浙江杭州） (ipv4, ipv6, http, https)
 > #### Added: 2017-06-05[archlinuxcn]
 > Server= https://mirrors.zju.edu.cn/archlinuxcn/$arch
 >
@@ -49,15 +49,15 @@ sudo pacman -S yay && yay --save --aururl "https://aur.tuna.tsinghua.edu.cn"
 > #### xTom Hong Kong Mirror[archlinuxcn]
 > Server= https://mirror.xtom.com.hk/archlinuxcn/$arch
 >
-> #### Unique Studio (湖北武汉) (ipv4, http, https)
+> #### Unique Studio （湖北武汉） (ipv4, http, https)
 > #### Added: 2017-08-02[archlinuxcn]
 > Server= https://mirrors.hustunique.com/archlinuxcn/$arch
 >
-> #### 上海科技大学 (上海) (ipv4, http, https)
+> #### 上海科技大学 （上海） (ipv4, http, https)
 > #### Added: 2016-04-07[archlinuxcn]
 > Server= https://mirrors-wan.geekpie.org/archlinuxcn/$arch
 >
-> #### 中国科学院开源软件协会 (北京) (ipv4, http)
+> #### 中国科学院开源软件协会 （北京） (ipv4, http)
 > #### Added: 2017-02-09[archlinuxcn]
 > Server= http://mirrors.opencas.org/archlinuxcn/$arch
 >
@@ -76,6 +76,7 @@ sudo pacman -S fcitx-im fcitx-configtool
 
 nvim /etc/environment
 ```
+
 > * GTK_IM_MODULE=fcitx
 > * QT_IM_MODULE=fcitx
 > * XMODIFIERS="@im=fcitx"
