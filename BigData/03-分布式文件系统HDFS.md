@@ -2,7 +2,7 @@
 
 [目录](./00-目录.md)
 
-## 分布式文件系统HDFS
+## 第三章分布式文件系统HDFS
 ### 3.1分布式文件系统简介
 
 1. HDFS: Hadoop Distributed File System;
