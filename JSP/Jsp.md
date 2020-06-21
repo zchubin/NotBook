@@ -1,52 +1,107 @@
 # JSP学习笔记
 
-## 基础语法
+## 1. JSP概述
 
+Servlet是j2ee提供的动态资源开发技术，是以Java的程序的形式进行开发，
+在Java中书写HTML标签是一件十分头疼的事，所以人们开发除了JSP。
+看起来像是HTML一样，但是通过服务器的编译最终生成EServlet。
+JrP技术有点像ASP技术，它是在传统技的网页HTML文件(\*.htm/\*.html)中插入
+Java程序片(Scriptlet)和JSP标记(tag)，从形成JSP文件(\*.jsp)。
+
+用JSP开发Web应用是跨平台的。
+
+JSP的本质就是Servlet，每个JSP页面就是一个Servlet实例，
+JSP页面由系统编译成Servlet，Servlet负责响应用户请求。
+
+当我们新建一个项目并不知道tomcat服务器上运行时，
+我们可以在tomcat目录下`\work\Catalina\localhost`找到相应的JSP页面编译生成的Servlet代码。
+这些都是系统编译生成的Servlet类。
+
+## 2. JSP组成部分
+### -------------简单了解-------------
 1.注释
-<！–– HTML注释 ––>
-// Java单行注释
-/* Java多行注释 */
+* <%- JSP注释 -%>
+* <\!–– HTML注释 ––>
+* // Java单行注释
+* /\* Java多行注释 \*/
 
 2.基本元素
-* 指令标记和动作标记
+| 形式          | 含义               |
+| :---:         | :---:              |
+| <%@ \*\*\* %> | 指令标记和动作标记 |
+| <%= \*\*\* %> | Java表达式         |
+| <%  \*\*\* %> | Java程序片         |
+| <%! \*\*\* %> | 变量和方法的声明   |
 
-<%@ %>
+### -------------详细解释-------------
+#### 2.1 模板元素
+直接书写在JSP中的HTML内容，看起来就像写HTML一样的方便，但是最终会被翻译成Servlet的过程中`out.write()`直接输出。
 
-* 变量和方法的声明
+#### 2.2 脚本表达式
+`<%= 表达式 %>`
+接受的是一段Java表达式，在jsp翻译到Servlet的过程中，将会计算表达式的值，利用`out.write()`输出出去。
+> 效果上 <%= \*\*\* %> = "println="
 
-<%! %>
+#### 2.3 脚本片段
+`<% 程序片 %>`
+直接可以在脚本片段中书写Java源代码，其中的源代码会被直接拷贝到翻译过来的servlet中的相应位置上。
 
-* Java程序片
+#### 2.4 JSP声明
+`<%! 声明 %>`，
+在其中可以写Java代码，其中源代码会被拷贝servlet的service方法之外，可以利用它来为servlet增加成员方法、成员变量、静态代码块
 
-<% %>
+#### 2.5 JSP注释
+`<%- 注释 -%>`
 
-* Java表达式
-
-<%= %> = "println="
-
-### page指令标记
+#### 2.6 JSP指令
+##### 2.6.1 page 指令
+`<%@ page 属性="属性值" %>`
 > 作用对整个JSP页面有效，与书写位置无关。习惯性把page指令写在JSP页面前面。
-```jsp
-<%@ page 属性="属性值" %>
-```
->> 建议一行一个page指令。
 
-|属性|属性值|含义|
-|--|--|--|
-|contenType   |"text/html;charset=ISO-8859-1"/"application/msworld"|响应MIME类型，jsp字符编码                                                |
-|language     |"java"                                              |jsp使用的脚本语言                                                        |
-|import       |"java.io.*","java.util.*"                           |java运行环境运行提供的包的类                                              |
-|session      |"true"/"false"                                      |是否内置"session"(会话)指令                                              |
-|buffer       |"8K"/"none"                                         |缓冲区大小或不使用缓冲区                                                  |
-|autoFulsh    |"true"/"false"                                      |指定out的缓冲区填满时否自动刷新                                           |
-|isThreadSafe |"true"/"false"                                      |是否可以使用多线程                                                       |
-|info         |"String字符串"                                      |为jsp页面准备一个常用但可能要经常改变的字符串，**getServeletInfo()**;进行调用|
+| 属性         | 属性值                                               | 含义                                                                          |
+| --           | --                                                   | --                                                                            |
+| contenType   | "text/html;charset=ISO-8859-1"/"application/msworld" | 响应MIME类型，jsp字符编码                                                     |
+| language     | "java"                                               | jsp使用的脚本语言                                                             |
+| import       | "java.io.*","java.util.*"                            | java运行环境运行提供的包的类                                                  |
+| session      | "true"/"false"                                       | 是否内置"session"(会话)指令                                                   |
+| buffer       | "8K"/"none"                                          | 缓冲区大小或不使用缓冲区                                                      |
+| autoFulsh    | "true"/"false"                                       | 指定out的缓冲区填满时否自动刷新                                               |
+| isThreadSafe | "true"/"false"                                       | 是否可以使用多线程                                                            |
+| info         | "String字符串"                                       | 为jsp页面准备一个常用但可能要经常改变的字符串，**getServeletInfo()**;进行调用 |
+
+#### 2.6.2 include 指令
+`<%@ include file="URL" %>`(静态引入页面内容)
+> 在jsp页面内某处整体嵌入一个文件（静态插入一个文件），被嵌入的文件必须是**可以访问或可以使用的**。
+>> * 静态引入：在源文件级别进行合并，多个jsp生成一个servlet，最终由这一个servlet生成响应。
+>> * 动态引入：在运行时讲过个输出进行合并，多个jsp分别生成多个servlet，最终由这多个servlet生成响应，组成一个输出流，提供响应。执行效率没有静态引入高。
+
+#### 2.6.3 taglib 指令
+`<%@ taglib uri="引入.tld文件的名称空间" prefix="对.tld文件的名称缩写" %>`
+> 用来引入标签库。
+
+### 2.7 九大隐式对象
+1. config
+2. application
+3. request
+4. response
+5. session
+6. out
+7. page
+8. pageContext
+9. Exception
+
+## 3. JSP 标签
+JSP既可以用来生成HTML页面，也可以直接书写Java原代码处理逻辑，
+这就会导致很多开发者在JSP出现初期，只用JSP做开发，
+这个JSP页面十分庞大、充满了Java源代码和HTML标签、许多百分号，
+逻辑结果混乱，不宜调试程序和页面美化。
+
+于是人们希望将Java源代码从jsp页面中抽离，但是把所有的Java源代码都抽走是不现实的，
+最基本的获取属性、简单的页面逻辑还是需要的，
+于是，SUM公司就提供了JSP中的标签开发技术，以一个标签戴白哦一种功能的Java代码，
+是整个JSP开起来就像一个HTML，并且不会丢失JSP进行逻辑处理功能。
 
 ### include指令标记
-> 在jsp页面内某处整体嵌入一个文件（静态插入一个文件），被嵌入的文件必须是**可以访问或可以使用的**。
-```jsp
-<%@ include file="URL" %>
-```
 >> 如果插入的是jsp页面，则page指令标记的contentType的属性值必须相同。
 
 ### include动作标记
