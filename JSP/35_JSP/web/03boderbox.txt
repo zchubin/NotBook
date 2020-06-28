@@ -1,0 +1,5 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<a class="side-table side-table-1 bg-color" href="#totop">totop</a>
+<a class="side-table side-table-2 bg-color" href="lookShoppingCar.jsp">购物车</a>
+<a class="side-table side-table-3 bg-color" href="javascript:location.reload();" title="refresh">refresh</a>
+<a class="side-table side-table-4 bg-color" href="#tobtm">tobtm</a>
